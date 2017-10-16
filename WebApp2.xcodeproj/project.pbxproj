@@ -14,6 +14,7 @@
 		1CAFF3F21F94870E00951310 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CAFF3F01F94870E00951310 /* LaunchScreen.storyboard */; };
 		1CAFF3FD1F94870E00951310 /* WebApp2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CAFF3FC1F94870E00951310 /* WebApp2Tests.swift */; };
 		1CAFF4081F94870E00951310 /* WebApp2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CAFF4071F94870E00951310 /* WebApp2UITests.swift */; };
+		1CAFF4171F94874F00951310 /* checkUrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CAFF4161F94874F00951310 /* checkUrl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		1CAFF4031F94870E00951310 /* WebApp2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebApp2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CAFF4071F94870E00951310 /* WebApp2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebApp2UITests.swift; sourceTree = "<group>"; };
 		1CAFF4091F94870E00951310 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CAFF4161F94874F00951310 /* checkUrl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = checkUrl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		1CAFF3DB1F94870E00951310 = {
 			isa = PBXGroup;
 			children = (
+				1CAFF4151F94873200951310 /* Tools */,
 				1CAFF3E61F94870E00951310 /* WebApp2 */,
 				1CAFF3FB1F94870E00951310 /* WebApp2Tests */,
 				1CAFF4061F94870E00951310 /* WebApp2UITests */,
@@ -123,6 +126,14 @@
 				1CAFF4091F94870E00951310 /* Info.plist */,
 			);
 			path = WebApp2UITests;
+			sourceTree = "<group>";
+		};
+		1CAFF4151F94873200951310 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				1CAFF4161F94874F00951310 /* checkUrl.swift */,
+			);
+			name = Tools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +272,7 @@
 			files = (
 				1CAFF3EA1F94870E00951310 /* ViewController.swift in Sources */,
 				1CAFF3E81F94870E00951310 /* AppDelegate.swift in Sources */,
+				1CAFF4171F94874F00951310 /* checkUrl.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
