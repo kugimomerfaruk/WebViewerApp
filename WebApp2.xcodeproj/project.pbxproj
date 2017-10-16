@@ -15,6 +15,7 @@
 		1CAFF3FD1F94870E00951310 /* WebApp2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CAFF3FC1F94870E00951310 /* WebApp2Tests.swift */; };
 		1CAFF4081F94870E00951310 /* WebApp2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CAFF4071F94870E00951310 /* WebApp2UITests.swift */; };
 		1CAFF4171F94874F00951310 /* checkUrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CAFF4161F94874F00951310 /* checkUrl.swift */; };
+		1CAFF4191F9494C300951310 /* WebSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CAFF4181F9494C300951310 /* WebSettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		1CAFF4071F94870E00951310 /* WebApp2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebApp2UITests.swift; sourceTree = "<group>"; };
 		1CAFF4091F94870E00951310 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1CAFF4161F94874F00951310 /* checkUrl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = checkUrl.swift; sourceTree = "<group>"; };
+		1CAFF4181F9494C300951310 /* WebSettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebSettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 			children = (
 				1CAFF3E71F94870E00951310 /* AppDelegate.swift */,
 				1CAFF3E91F94870E00951310 /* ViewController.swift */,
+				1CAFF4181F9494C300951310 /* WebSettingsViewController.swift */,
 				1CAFF3EB1F94870E00951310 /* Main.storyboard */,
 				1CAFF3EE1F94870E00951310 /* Assets.xcassets */,
 				1CAFF3F01F94870E00951310 /* LaunchScreen.storyboard */,
@@ -270,6 +273,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CAFF4191F9494C300951310 /* WebSettingsViewController.swift in Sources */,
 				1CAFF3EA1F94870E00951310 /* ViewController.swift in Sources */,
 				1CAFF3E81F94870E00951310 /* AppDelegate.swift in Sources */,
 				1CAFF4171F94874F00951310 /* checkUrl.swift in Sources */,

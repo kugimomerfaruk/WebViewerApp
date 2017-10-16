@@ -9,15 +9,23 @@
 import UIKit
 
 class ViewController: UIViewController {
+    @IBOutlet weak var goBtnOutlet: UIButton!
+    @IBOutlet weak var urlTextFieldOutlet: UITextField!
+    
+    @IBAction func goBtnAction(_ sender: UIButton) {
+      let url = goOrSearchURL(urlTextFieldOutlet.text!)
+      print(url)
+    }
 
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
 
 
