@@ -12,18 +12,18 @@ class ViewController: UIViewController {
     @IBOutlet weak var goBtnOutlet: UIButton!
     @IBOutlet weak var urlTextFieldOutlet: UITextField!
     
-    @IBAction func goBtnAction(_ sender: UIButton) {
-      let url = goOrSearchURL(urlTextFieldOutlet.text!)
-      print(url)
+     func goBtnAction(_ sender: UIButton) {
+        
+      let urlCheck = goOrSearchURL(urlTextFieldOutlet.text!, isSearchable: searchIsOn)
+      print(urlCheck.url)
+      print(urlCheck.isGoing)
+        
     }
-
-    
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
