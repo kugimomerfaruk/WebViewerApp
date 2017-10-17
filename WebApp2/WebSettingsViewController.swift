@@ -10,6 +10,7 @@ let searchEngines = [
 ]
 weak var searchSwitchOutlet: UISwitch!
 var searchIsOn = false
+var searchURL = searchEngines[2][1]
 
 class WebSettingsViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDelegate {
     
@@ -29,7 +30,10 @@ class WebSettingsViewController: UIViewController, UIPickerViewDataSource, UIPic
         
     }
     func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
-        print(searchEngines[row][1])
+        searchURL = searchEngines[row][1]
+        print(searchURL)
+        
+        
     }
     
 
@@ -51,6 +55,7 @@ class WebSettingsViewController: UIViewController, UIPickerViewDataSource, UIPic
         
         super.viewDidLoad()
         
+        print(searchURL)
         // Picker default value
         searchEnginePickerOutlet.selectRow(2,inComponent: 0, animated: true)
         searchSwitchOutlet.isOn = searchIsOn
